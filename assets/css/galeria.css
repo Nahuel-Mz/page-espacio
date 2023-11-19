@@ -51,3 +51,34 @@ footer {
   color: white;
   text-align: center;
 }
+
+/* seccion de cards */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.card {
+  background-color: gray;
+  max-width: 600px;
+  margin: 20px;
+  border: 4px solid white;
+  border-radius: 1rem;
+}
+
+.galeria {
+  margin-top: 5px;
+  width: 500px;
+  border-radius: 1rem;
+}
+
+.planetas {
+  font-size: 1.3em;
+  color: white;
+}
