@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contacto</title>
+    <link rel="stylesheet" href="./assets/css/contacto.css" />
   </head>
   <body>
     <header>
       <img src="./assets/img/NASA_logo.svg.png" alt="nasa" class="logo" />
 
-      <ul>
+      <ul class="list">
         <li><a href="index.html" class="link-a">Inicio</a></li>
         <li><a href="galeria.html" class="link-a">Galeria</a></li>
         <li><a href="contacto.html" class="link-a">Contacto</a></li>
@@ -18,12 +19,38 @@
 
     <main>
       <section>
-        <form></form>
+        <h2>FORMULARIO DE CONTACTO</h2>
+
+        <div class="container">
+          <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="ingrese su nombre" />
+            <label for="lastName">Apellido:</label>
+            <input
+              type="text"
+              id="lastName"
+              placeholder="ingrese su apellido"
+            />
+            <label for="correo">Correo:</label>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="ingrese su email"
+            />
+            <label for="pass">Contraseña:</label>
+            <input type="password" name="pass" id="pass" />
+
+            <input type="submit" value="enviar" id="boton" />
+          </form>
+        </div>
       </section>
     </main>
 
-    <footer class="pie-pagina">
-      <p>Todos los derechos reservados &copy; nahuel martinez</p>
+    <footer>
+      <p class="pie-pagina">
+        Todos los derechos reservados &copy; nahuel martinez
+      </p>
     </footer>
   </body>
 </html>
