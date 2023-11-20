@@ -19,31 +19,24 @@
 
     <main>
       <section>
-        <h2>FORMULARIO DE CONTACTO</h2>
+        <form>
+          <h2 class="titulo">FORMULARIO DE CONTACTO</h2>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" placeholder="ingrese su nombre" />
+          <label for="lastName">Apellido:</label>
+          <input type="text" id="lastName" placeholder="ingrese su apellido" />
+          <label for="correo">Correo:</label>
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="ingrese su email"
+          />
+          <label for="pass">Contraseña:</label>
+          <input type="password" name="pass" id="pass" />
 
-        <div class="container">
-          <form>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" placeholder="ingrese su nombre" />
-            <label for="lastName">Apellido:</label>
-            <input
-              type="text"
-              id="lastName"
-              placeholder="ingrese su apellido"
-            />
-            <label for="correo">Correo:</label>
-            <input
-              type="email"
-              name="correo"
-              id="correo"
-              placeholder="ingrese su email"
-            />
-            <label for="pass">Contraseña:</label>
-            <input type="password" name="pass" id="pass" />
-
-            <input type="submit" value="enviar" id="boton" />
-          </form>
-        </div>
+          <input type="submit" value="enviar" id="boton" />
+        </form>
       </section>
     </main>
 

@@ -54,12 +54,14 @@ footer {
 
 /* estilando formulario */
 
-/* section {
-  display: flex;
-  flex-direction: column;
-} */
+.titulo {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
 
 main {
+  height: 200px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -68,9 +70,9 @@ main {
 form {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
   color: white;
-  margin-top: 500px;
+  margin-top: 200px;
 }
 
 form,
@@ -81,9 +83,10 @@ label {
 
 form,
 input {
-  height: 400px;
+  height: 500px;
   border-radius: 1rem;
   text-align: center;
+  border: 5px solid grey;
 }
 
 #boton {
