@@ -95,3 +95,8 @@ input {
   font-size: 24px;
   font-weight: 400;
 }
+::placeholder {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
